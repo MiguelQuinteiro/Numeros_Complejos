@@ -1,6 +1,6 @@
 VERSION 5.00
 Begin VB.Form frmNumerosComplejos 
-   BackColor       =   &H8000000D&
+   BackColor       =   &H8000000C&
    Caption         =   "Números Complejos"
    ClientHeight    =   6165
    ClientLeft      =   60
@@ -29,7 +29,7 @@ Begin VB.Form frmNumerosComplejos
    End
    Begin VB.TextBox txtBuscaZ1 
       Alignment       =   1  'Right Justify
-      BackColor       =   &H0000C000&
+      BackColor       =   &H00C0C0C0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -47,7 +47,7 @@ Begin VB.Form frmNumerosComplejos
    End
    Begin VB.TextBox txtBuscaZ2 
       Alignment       =   1  'Right Justify
-      BackColor       =   &H0080FF80&
+      BackColor       =   &H00E0E0E0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -64,7 +64,7 @@ Begin VB.Form frmNumerosComplejos
       Width           =   1575
    End
    Begin VB.TextBox txtTrigonometricaZ2 
-      BackColor       =   &H0080FF80&
+      BackColor       =   &H00E0E0E0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -81,7 +81,7 @@ Begin VB.Form frmNumerosComplejos
       Width           =   4215
    End
    Begin VB.TextBox txtPolarZ2 
-      BackColor       =   &H0080FF80&
+      BackColor       =   &H00E0E0E0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -98,7 +98,7 @@ Begin VB.Form frmNumerosComplejos
       Width           =   2775
    End
    Begin VB.TextBox txtBinomicaZ2 
-      BackColor       =   &H0080FF80&
+      BackColor       =   &H00E0E0E0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -115,7 +115,7 @@ Begin VB.Form frmNumerosComplejos
       Width           =   1815
    End
    Begin VB.TextBox txtTrigonometricaZ1 
-      BackColor       =   &H0000C000&
+      BackColor       =   &H00C0C0C0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -132,7 +132,7 @@ Begin VB.Form frmNumerosComplejos
       Width           =   4215
    End
    Begin VB.TextBox txtPolarZ1 
-      BackColor       =   &H0000C000&
+      BackColor       =   &H00C0C0C0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -149,7 +149,7 @@ Begin VB.Form frmNumerosComplejos
       Width           =   2775
    End
    Begin VB.TextBox txtBinomicaZ1 
-      BackColor       =   &H0000C000&
+      BackColor       =   &H00C0C0C0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -167,7 +167,7 @@ Begin VB.Form frmNumerosComplejos
    End
    Begin VB.TextBox txtCuadranteZ2 
       Alignment       =   1  'Right Justify
-      BackColor       =   &H0080FF80&
+      BackColor       =   &H00E0E0E0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -185,7 +185,7 @@ Begin VB.Form frmNumerosComplejos
    End
    Begin VB.TextBox txtCuadranteZ1 
       Alignment       =   1  'Right Justify
-      BackColor       =   &H0000C000&
+      BackColor       =   &H00C0C0C0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -203,7 +203,7 @@ Begin VB.Form frmNumerosComplejos
    End
    Begin VB.TextBox txtAnguloRadianZ1 
       Alignment       =   1  'Right Justify
-      BackColor       =   &H0000C000&
+      BackColor       =   &H00C0C0C0&
       BorderStyle     =   0  'None
       BeginProperty Font 
          Name            =   "MS Sans Serif"
@@ -222,7 +222,7 @@ Begin VB.Form frmNumerosComplejos
    End
    Begin VB.TextBox txtAnguloRadianZ2 
       Alignment       =   1  'Right Justify
-      BackColor       =   &H0080FF80&
+      BackColor       =   &H00E0E0E0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -240,7 +240,7 @@ Begin VB.Form frmNumerosComplejos
    End
    Begin VB.TextBox txtAnguloZ2 
       Alignment       =   1  'Right Justify
-      BackColor       =   &H0080FF80&
+      BackColor       =   &H00E0E0E0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -258,7 +258,7 @@ Begin VB.Form frmNumerosComplejos
    End
    Begin VB.TextBox txtAnguloZ1 
       Alignment       =   1  'Right Justify
-      BackColor       =   &H0000C000&
+      BackColor       =   &H00C0C0C0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -293,7 +293,7 @@ Begin VB.Form frmNumerosComplejos
    End
    Begin VB.TextBox txtModuloZ1 
       Alignment       =   1  'Right Justify
-      BackColor       =   &H0000C000&
+      BackColor       =   &H00C0C0C0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -311,7 +311,7 @@ Begin VB.Form frmNumerosComplejos
    End
    Begin VB.TextBox txtModuloZ2 
       Alignment       =   1  'Right Justify
-      BackColor       =   &H0080FF80&
+      BackColor       =   &H00E0E0E0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -329,7 +329,7 @@ Begin VB.Form frmNumerosComplejos
    End
    Begin VB.TextBox txtOpuestoD 
       Alignment       =   1  'Right Justify
-      BackColor       =   &H0080FF80&
+      BackColor       =   &H00E0E0E0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -347,7 +347,7 @@ Begin VB.Form frmNumerosComplejos
    End
    Begin VB.TextBox txtOpuestoC 
       Alignment       =   1  'Right Justify
-      BackColor       =   &H0080FF80&
+      BackColor       =   &H00E0E0E0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -365,7 +365,7 @@ Begin VB.Form frmNumerosComplejos
    End
    Begin VB.TextBox txtOpuestoB 
       Alignment       =   1  'Right Justify
-      BackColor       =   &H0000C000&
+      BackColor       =   &H00C0C0C0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -383,7 +383,7 @@ Begin VB.Form frmNumerosComplejos
    End
    Begin VB.TextBox txtOpuestoA 
       Alignment       =   1  'Right Justify
-      BackColor       =   &H0000C000&
+      BackColor       =   &H00C0C0C0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -401,7 +401,7 @@ Begin VB.Form frmNumerosComplejos
    End
    Begin VB.TextBox txtConjugadoD 
       Alignment       =   1  'Right Justify
-      BackColor       =   &H0080FF80&
+      BackColor       =   &H00E0E0E0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -419,7 +419,7 @@ Begin VB.Form frmNumerosComplejos
    End
    Begin VB.TextBox txtConjugadoC 
       Alignment       =   1  'Right Justify
-      BackColor       =   &H0080FF80&
+      BackColor       =   &H00E0E0E0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -437,7 +437,7 @@ Begin VB.Form frmNumerosComplejos
    End
    Begin VB.TextBox txtConjugadoB 
       Alignment       =   1  'Right Justify
-      BackColor       =   &H0000C000&
+      BackColor       =   &H00C0C0C0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -455,7 +455,7 @@ Begin VB.Form frmNumerosComplejos
    End
    Begin VB.TextBox txtConjugadoA 
       Alignment       =   1  'Right Justify
-      BackColor       =   &H0000C000&
+      BackColor       =   &H00C0C0C0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -537,7 +537,7 @@ Begin VB.Form frmNumerosComplejos
    End
    Begin VB.TextBox txtD 
       Alignment       =   1  'Right Justify
-      BackColor       =   &H0080FF80&
+      BackColor       =   &H00E0E0E0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -556,7 +556,7 @@ Begin VB.Form frmNumerosComplejos
    End
    Begin VB.TextBox txtC 
       Alignment       =   1  'Right Justify
-      BackColor       =   &H0080FF80&
+      BackColor       =   &H00E0E0E0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -575,7 +575,7 @@ Begin VB.Form frmNumerosComplejos
    End
    Begin VB.TextBox txtB 
       Alignment       =   1  'Right Justify
-      BackColor       =   &H0000C000&
+      BackColor       =   &H00C0C0C0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -594,7 +594,7 @@ Begin VB.Form frmNumerosComplejos
    End
    Begin VB.TextBox txtA 
       Alignment       =   1  'Right Justify
-      BackColor       =   &H0000C000&
+      BackColor       =   &H00C0C0C0&
       BeginProperty Font 
          Name            =   "MS Sans Serif"
          Size            =   8.25
